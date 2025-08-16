@@ -30,18 +30,16 @@ export default function ScholarshipPage() {
                     </div>
                     <div className="feature-card">
                         <div className="feature-icon">👩‍❤️‍👨</div>
-                        <h3>젊은 사모</h3>
+                        <h3>젊은 목회자 사모</h3>
                         <p>쉼과 회복을 위한 리트릿 참가비 및 정서적 지원 프로그램 제공</p>
                     </div>
                     <div className="feature-card">
                         <div className="feature-icon">🤱</div>
-                        <h3>미혼모 (싱글맘)</h3>
-                        <p>자녀 양육, 상담, 공동체 연결을 위한 지원 및 생활 장학금 제공</p>
-                    </div>
-                    <div className="feature-card">
-                        <div className="feature-icon">👨‍👧</div>
-                        <h3>한부모 가정 자녀</h3>
-                        <p>경제적 어려움 속에서도 꿈을 이어갈 수 있도록 학업 장학금 및 멘토링 제공</p>
+                        <h3>한부모 가정</h3>
+                        <p>
+                            자녀 양육과 학업, 경제적 어려움 속에서도 믿음을 지켜나가는 가정에게
+                            생활 장학금과 멘토링을 지원합니다.
+                        </p>
                     </div>
                 </div>
             </section>
