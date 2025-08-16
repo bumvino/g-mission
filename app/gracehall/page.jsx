@@ -4,7 +4,8 @@ export default function GraceHallPage() {
             {/* 헤드라인 */}
             <section className="headline">
                 <h2>
-                    <span className="headline-static">은혜의 공간,</span>
+                    <span className="headline-static">은혜의 공간<span className="mobile-break"><br /></span>
+                    </span>
                     <span className="headline-dynamic">Grace Hall</span>
                 </h2>
                 <p>

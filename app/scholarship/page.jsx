@@ -4,7 +4,8 @@ export default function ScholarshipPage() {
             {/* 헤드라인 */}
             <section className="headline">
                 <h2>
-                    <span className="headline-static">다음 세대를 위한</span>
+                    <span className="headline-static">다음 세대를 위한<span className="mobile-break"><br /></span>
+                    </span>
                     <span className="headline-dynamic">장학 지원 사역</span>
                 </h2>
                 <p>

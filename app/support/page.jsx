@@ -4,7 +4,8 @@ export default function SupportPage() {
             {/* 헤드라인 */}
             <section className="headline">
                 <h2>
-                    <span className="headline-static">선교 사역을 위한</span>
+                    <span className="headline-static">선교 사역를 위한<span className="mobile-break"><br /></span>
+                    </span>
                     <span className="headline-dynamic">후원 안내</span>
                 </h2>
                 <p>

@@ -4,7 +4,8 @@ export default function CultureMinistryPage() {
             {/* 헤드라인 */}
             <section className="headline">
                 <h2>
-                    <span className="headline-static">예술과 예배가 만나는</span>
+                    <span className="headline-static">예술과 예배가 만나는<span className="mobile-break"><br /></span>
+                    </span>
                     <span className="headline-dynamic">문화 사역</span>
                 </h2>
                 <p>

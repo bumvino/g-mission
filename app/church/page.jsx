@@ -4,7 +4,8 @@ export default function ChurchSupportPage() {
             {/* 헤드라인 */}
             <section className="headline">
                 <h2>
-                    <span className="headline-static">작은 교회를 위한</span>
+                    <span className="headline-static">작은 교회를 위한<span className="mobile-break"><br /></span>
+                    </span>
                     <span className="headline-dynamic">예배 공간 지원</span>
                 </h2>
                 <p>
