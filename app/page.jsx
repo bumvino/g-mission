@@ -6,7 +6,8 @@ export default function HomePage() {
             {/* 메인 헤드라인 */}
             <section className="headline">
                 <h2>
-                    <span className="headline-static">은혜로 연결되는</span>
+                    <span className="headline-static">은혜로 연결되는<span className="mobile-break"><br /></span>
+                    </span>
                     <span className="headline-dynamic">선교 공동체</span>
                 </h2>
                 <p>
