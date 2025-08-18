@@ -258,6 +258,16 @@ img { max-width: 100%; height: auto; display: block; }
     .feature-card {
         padding: 1rem;
     }
+
+    .features-heading {
+        font-size: 1.9rem;
+        line-height: 1.5;
+    }
+
+    .worship-info {
+        font-size: 1.9rem;
+        line-height: 1.5;
+    }
 }
 
 /* Small screen breakpoint (≤ 600px) */
