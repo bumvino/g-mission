@@ -232,7 +232,7 @@ img { max-width: 100%; height: auto; display: block; }
     }
 
     .main-nav {
-        display: none; /* Optional: replace with hamburger menu */
+        display: none;
     }
 
     .footer-container {
@@ -251,8 +251,8 @@ img { max-width: 100%; height: auto; display: block; }
     }
 
     .headline h2 {
-        font-size: 1.6rem;
-        line-height: 1.4;
+        font-size: 1.9rem;
+        line-height: 1.5;
     }
 
     .feature-card {
