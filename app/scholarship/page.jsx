@@ -17,7 +17,7 @@ export default function ScholarshipPage() {
 
             {/* 지원 대상 소개 */}
             <section className="features-section">
-                <h2 className="features-heading">G-MISSION 장학금은 이런 분들에게 제공됩니다</h2>
+                <h2 className="features-heading">G Mission 장학금은 이런 분들에게 제공됩니다</h2>
                 <div className="features-grid">
                     <div className="feature-card">
                         <div className="feature-icon">👨‍👧‍👦</div>

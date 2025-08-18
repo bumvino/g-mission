@@ -9,7 +9,7 @@ export default function CultureMinistryPage() {
                     <span className="headline-dynamic">문화 사역</span>
                 </h2>
                 <p>
-                    G-MISSION은 음악과 예술을 통해 복음을 전하고 세상을 밝히는 문화를 만들어가고자 합니다.
+                    G Mission은 음악과 예술을 통해 복음을 전하고 세상을 밝히는 문화를 만들어가고자 합니다.
                     합창단, 찬양팀, 공연, 문화 프로그램 등 다양한 예술 사역을 지원하고 운영합니다.
                 </p>
             </section>
@@ -20,7 +20,7 @@ export default function CultureMinistryPage() {
                 <div className="features-grid">
                     <div className="feature-card">
                         <div className="feature-icon">🎼</div>
-                        <h3>G-MISSION 합창단</h3>
+                        <h3>G Mission 합창단</h3>
                         <p>정기 연습과 연주회를 통해 찬양의 감동을 전하는 사역</p>
                     </div>
                     <div className="feature-card">

@@ -134,18 +134,6 @@ img { max-width: 100%; height: auto; display: block; }
 ================================================== */
 .worship-info { padding: 3rem 2rem; text-align: center; }
 .worship-info h2 { font-size: 2rem; margin-bottom: 2rem; }
-.worship-grid {
-    display: grid; gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    max-width: 1000px; margin: 0 auto;
-}
-.worship-card {
-    background: #fff; padding: 1.5rem; border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,.05); text-align: left;
-}
-.worship-card h3 { color: #2DCDB3; margin: 0 0 1rem; }
-.worship-card ul { margin: 0; padding: 0; list-style: none; }
-.worship-card li { margin-bottom: .5rem; }
 
 /* ==================================================
    9) PASTOR PAGE
@@ -202,7 +190,13 @@ img { max-width: 100%; height: auto; display: block; }
     display: flex; flex-wrap: wrap; gap: 2rem;
     max-width: 1200px; margin: 0 auto; padding: 2rem;
 }
-.footer-col { flex: 1 1 200px; }
+.footer-col {
+    flex: 1 1 200px;
+}
+.footer-col:first-child {
+    min-width: 280px;
+    flex: 1 1 auto;
+}
 .footer-logo img { height: 40px; margin-bottom: 1rem; }
 .footer-social { display: flex; gap: 1rem; }
 .footer-social img { width: 24px; height: 24px; transition: filter .2s; }
@@ -215,6 +209,10 @@ img { max-width: 100%; height: auto; display: block; }
 .footer-col address { font-style: normal; line-height: 1.6; }
 .footer-bottom { text-align: center; padding: 1rem 0; border-top: 1px solid #e0e0e0; }
 .footer-bottom p { margin: 0; font-size: .85rem; color: #6c757d; }
+.footer-menu { flex: 0 1 150px;  /* smaller width */ }
+.footer-contact { flex: 1 1 300px;  /* wider column */}
+
+
 
 /* ==================================================
    14) RESPONSIVE
@@ -228,17 +226,9 @@ img { max-width: 100%; height: auto; display: block; }
     .footer-container { flex-direction: column; text-align: center; align-items: center; }
     .footer-col { flex: 1 1 100%; }
 }
-
-/* ==================================================
-   14) MOBILE BREAK
-================================================== */
-
+@media (max-width: 600px) {
+    .mobile-break { display: inline; }
+}
 .mobile-break {
     display: none;
-}
-
-@media (max-width: 600px) {
-    .mobile-break {
-        display: inline;
-    }
 }

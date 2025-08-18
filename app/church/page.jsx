@@ -9,7 +9,7 @@ export default function ChurchSupportPage() {
                     <span className="headline-dynamic">예배 공간 지원</span>
                 </h2>
                 <p>
-                    G-MISSION은 자체 공간이 없는 교회나 개척 교회, 선교 단체를 위해 Grace Hall을 예배 및 모임 공간으로 제공합니다.
+                    G Mission은 자체 공간이 없는 교회나 개척 교회, 선교 단체를 위해 Grace Hall을 예배 및 모임 공간으로 제공합니다.
                 </p>
             </section>
 

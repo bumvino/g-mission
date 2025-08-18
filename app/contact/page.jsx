@@ -4,7 +4,7 @@ export default function ContactPage() {
             {/* 헤드라인 */}
             <section className="headline">
                 <h2>
-                    <span className="headline-static">G-MISSION에</span>
+                    <span className="headline-static">G Mission에</span>
                     <span className="headline-dynamic">문의하기</span>
                 </h2>
                 <p>
