@@ -38,7 +38,7 @@ export default function CultureMinistryPage() {
 
             {/* 참여 안내 */}
             <section className="worship-info">
-                <h2>문화 사역에 함께하고 싶으신가요?</h2>
+                <h2 className="features-heading">문화 사역에 함께하고 싶으신가요?</h2>
                 <p>
                     음악, 예술, 기획, 진행 등 다양한 방식으로 문화 사역에 동참하실 수 있습니다.
                     함께 복음이 살아있는 문화를 만들어가요.

@@ -47,7 +47,7 @@ export default function ScholarshipPage() {
 
             {/* 문의 유도 */}
             <section className="worship-info">
-                <h2>장학금 신청 또는 추천을 원하시나요?</h2>
+                <h2 className="features-heading">장학금 신청 또는 추천을 원하시나요?</h2>
                 <p>
                     해당 사역의 대상자이거나 추천하고 싶은 분이 있다면, 아래 버튼을 눌러 연락해 주세요.
                     G Mission은 함께 하나님의 부르심을 이루는 여정을 동행하고자 합니다.

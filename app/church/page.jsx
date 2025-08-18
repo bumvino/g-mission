@@ -37,7 +37,7 @@ export default function ChurchSupportPage() {
 
             {/* 문의 유도 */}
             <section className="worship-info">
-                <h2>예배 공간이 필요하신가요?</h2>
+                <h2 className="features-heading">예배 공간이 필요하신가요?</h2>
                 <p>
                     교회 예배나 모임 장소가 필요한 분들은 언제든지 연락 주세요. 함께 사역의 공간을 만들어가길 바랍니다.
                 </p>

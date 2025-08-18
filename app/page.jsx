@@ -50,7 +50,7 @@ export default function HomePage() {
 
             {/* CTA */}
             <section className="worship-info">
-                <h2>G Mission과 함께하시겠어요?</h2>
+                <h2 className="features-heading">G Mission과 함께하시겠어요?</h2>
                 <p>함께 예배하고, 후원하고, 동역하며 은혜의 통로가 되어 주세요.</p>
 
                 <div className="mt-6">

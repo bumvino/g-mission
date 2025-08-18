@@ -38,7 +38,7 @@ export default function SupportPage() {
 
             {/* 후원 유도 */}
             <section className="worship-info">
-                <h2>함께 동역해 주세요</h2>
+                <h2 className="features-heading">함께 동역해 주세요</h2>
                 <p>
                     여러분의 후원이 더 많은 교회와 다음 세대를 살리는 도구가 됩니다.
                     정기/일시 후원 모두 가능하며, 투명하게 운영됩니다.

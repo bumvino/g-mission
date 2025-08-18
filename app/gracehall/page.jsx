@@ -39,7 +39,7 @@ export default function GraceHallPage() {
 
             {/* 대관 및 사역 연결 */}
             <section className="worship-info">
-                <h2>공간 대관 및 사역 연결</h2>
+                <h2 className="features-heading">공간 대관 및 사역 연결</h2>
                 <p>
                     Grace Hall의 공간 사용은 사역과 선한 목적을 위한 분들에게 우선적으로 제공되며,
                     대관 수익은 G-MISSION의 장학금과 교회 공간 지원 사역에 사용됩니다.
