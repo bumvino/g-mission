@@ -9,7 +9,7 @@ export default function ScholarshipPage() {
                     <span className="headline-dynamic">장학 지원 사역</span>
                 </h2>
                 <p>
-                    G-MISSION은 미래의 크리스천 리더들을 격려하고 돕기 위해 장학 사역을 운영합니다.
+                    G Mission은 미래의 크리스천 리더들을 격려하고 돕기 위해 장학 사역을 운영합니다.
                     믿음과 비전을 품은 학생들이 하나님의 부르심에 응답할 수 있도록 후원하며,
                     다양한 사역 프로그램 참여를 위한 장학금도 함께 제공합니다.
                 </p>

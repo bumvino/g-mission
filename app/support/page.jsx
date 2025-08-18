@@ -9,7 +9,7 @@ export default function SupportPage() {
                     <span className="headline-dynamic">후원 안내</span>
                 </h2>
                 <p>
-                    G-MISSION은 예배 공간 지원, 장학금, 문화사역 등 모든 사역을 헌신적인 후원자들의 기도와 나눔을 통해 운영합니다.
+                    G Mission은 예배 공간 지원, 장학금, 문화사역 등 모든 사역을 헌신적인 후원자들의 기도와 나눔을 통해 운영합니다.
                     Grace Hall의 대관 수익은 일부 재정에 사용되지만, 더 많은 사역 확장을 위해 후원이 필요합니다.
                 </p>
             </section>
