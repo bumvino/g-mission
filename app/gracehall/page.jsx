@@ -31,8 +31,8 @@ export default function GraceHallPage() {
                     </div>
                     <div className="feature-card">
                         <div className="feature-icon">🎉</div>
-                        <h3>파티 / 모임</h3>
-                        <p>생일, 돌잔치, 송년회 등 개인 행사도 가능 (사역 목적 우선)</p>
+                        <h3>모임</h3>
+                        <p>개인 행사도 가능 (사역 목적 우선)</p>
                     </div>
                 </div>
             </section>
@@ -45,9 +45,12 @@ export default function GraceHallPage() {
                     대관 수익은 G-MISSION의 장학금과 교회 공간 지원 사역에 사용됩니다.
                 </p>
 
-                <div className="mt-6">
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5rem", marginTop: "2rem" }}>
                     <a href="/contact" className="button">
                         Grace Hall 사용 문의하기
+                    </a>
+                    <a href="https://gracehall.skedda.com" className="button" target="_blank" rel="noopener noreferrer">
+                        Grace Hall 예약하기
                     </a>
                 </div>
             </section>
