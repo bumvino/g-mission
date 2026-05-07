@@ -411,7 +411,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .addons-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1.5rem;
 }
 
@@ -435,14 +435,17 @@ img { max-width: 100%; height: auto; display: block; }
 .addon-sub {
     color: #777;
     font-size: 0.95rem;
-    line-height: 1.5;
-    min-height: 50px;
+    line-height: 1.4;
+}
+
+.echo-sub {
+    margin-bottom: 0.5rem;
 }
 
 .addon-price {
     font-size: 2.2rem;
     font-weight: 700;
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     color: #111;
 }
 

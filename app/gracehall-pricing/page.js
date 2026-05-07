@@ -51,10 +51,11 @@ export default function GraceHallPricingPage() {
                 <h2 className="section-title">Add-on Services</h2>
 
                 <div className="addons-grid">
+                    {/* Echo */}
                     <div className="addon-card">
                         <h3>Echo</h3>
 
-                        <p className="addon-sub">
+                        <p className="addon-sub echo-sub">
                             피아노 + Mic System + 음향기사
                         </p>
 
@@ -71,11 +72,16 @@ export default function GraceHallPricingPage() {
                         </p>
                     </div>
 
+                    {/* Band Set */}
                     <div className="addon-card">
-                        <h3>Keyboard 1</h3>
+                        <h3>Band Set</h3>
+
+                        <p className="addon-sub">
+                            Keyboard 1 + Keyboard 2 + Drums
+                        </p>
 
                         <div className="addon-price">
-                            $200
+                            $300
                         </div>
 
                         <p className="addon-detail">
@@ -83,42 +89,11 @@ export default function GraceHallPricingPage() {
                         </p>
 
                         <p className="addon-extra">
-                            + $100/hr after 2 hours
+                            + $150/hr after 2 hours
                         </p>
                     </div>
 
-                    <div className="addon-card">
-                        <h3>Keyboard 2</h3>
-
-                        <div className="addon-price">
-                            $200
-                        </div>
-
-                        <p className="addon-detail">
-                            First 2 Hours
-                        </p>
-
-                        <p className="addon-extra">
-                            + $100/hr after 2 hours
-                        </p>
-                    </div>
-
-                    <div className="addon-card">
-                        <h3>Drums</h3>
-
-                        <div className="addon-price">
-                            $200
-                        </div>
-
-                        <p className="addon-detail">
-                            First 2 Hours
-                        </p>
-
-                        <p className="addon-extra">
-                            + $100/hr after 2 hours
-                        </p>
-                    </div>
-
+                    {/* Live Streaming */}
                     <div className="addon-card">
                         <h3>Live Streaming</h3>
 
@@ -139,6 +114,9 @@ export default function GraceHallPricingPage() {
 
             {/* NOTE */}
             <section className="pricing-note-section">
+                <p>
+                    * 사역 및 비영리 목적의 경우 별도 문의 부탁드립니다.
+                </p>
 
                 <a
                     href="https://gracehall.skedda.com"
