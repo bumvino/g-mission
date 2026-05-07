@@ -114,9 +114,6 @@ export default function GraceHallPricingPage() {
 
             {/* NOTE */}
             <section className="pricing-note-section">
-                <p>
-                    * 사역 및 비영리 목적의 경우 별도 문의 부탁드립니다.
-                </p>
 
                 <a
                     href="https://gracehall.skedda.com"
