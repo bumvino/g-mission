@@ -49,8 +49,10 @@ export default function GraceHallPage() {
                     <a href="/contact" className="button">
                         Grace Hall 사용 문의하기
                     </a>
-                    <a href="https://gracehall.skedda.com" className="button" target="_blank" rel="noopener noreferrer">
+                    <a href="/gracehall-pricing" className="button">
+
                         Grace Hall 예약하기
+
                     </a>
                 </div>
             </section>
